@@ -35,7 +35,7 @@ from utils import (
     wandb_log,
 )
 
-
+# hoangdc Nov 9 2024
 class Trainer(StateDictMixin):
     def __init__(self, cfg: DictConfig, root_dir: Path) -> None:
         torch.backends.cuda.matmul.allow_tf32 = True
